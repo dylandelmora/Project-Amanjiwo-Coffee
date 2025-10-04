@@ -56,7 +56,7 @@ export default function AboutUs() {
       <section className="py-20 px-6">
         <div className="max-w-6xl mx-auto text-center">
             <h2 className="text-3xl font-bold mb-4">Galeri Suasana</h2>
-            <p className="text-gray-400 mb-10">"Kami percaya, setiap momen bersama secangkir kopi adalah teman selamanya."</p>
+            <p className="text-gray-400 mb-10">&ldquo;Kami percaya, setiap momen bersama secangkir kopi adalah teman selamanya.&rdquo;</p>
             <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
                 <Image src="/Gambar 4.png" alt="Suasana 1" width={400} height={500} className="rounded-lg object-cover w-full h-80" />
                 <Image src="/galeri 1.jpg" alt="Suasana 2" width={400} height={500} className="rounded-lg object-cover w-full h-80" />
