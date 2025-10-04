@@ -1,3 +1,5 @@
+import Image from 'next/image';
+
 const testimonials = [
   {
     name: "Sarah Wijaya",
@@ -20,13 +22,14 @@ export default function Testimonials() {
       <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-5xl mx-auto">
         {testimonials.map((t, idx) => (
           <div key={idx} className="bg-[#2C1A14] p-6 rounded-lg">
-            <p className="mb-4 text-gray-200">"{t.text}"</p> 
+            <p className="mb-4">&ldquo;{t.text}&rdquo;</p>
             <div className="flex items-center justify-center md:justify-start gap-4 mt-6"> 
-              <img
-                src={t.img}
-                
-                className="w-16 h-16 rounded-full object-cover"
-                alt={t.name}
+              <Image 
+                  src={t.img} 
+                  width={64} 
+                  height={64} 
+                  className="rounded-full object-fill" 
+                  alt={t.name} 
               />
               <div className="text-left"> 
                 <h4 className="font-semibold text-white">{t.name}</h4>

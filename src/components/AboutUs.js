@@ -27,7 +27,7 @@ export default function AboutUs() {
           <div>
             <h2 className="text-3xl font-bold mb-4">Cerita Amanjiwo Coffee</h2>
             <p className="text-gray-400 leading-relaxed">
-              Berawal dari kecintaan terhadap kopi dan keinginan menciptakan ruang hangat untuk berkumpul, Amanjiwo Coffee lahir dari sebuah gerobak sederhana di jantung kota Semarang. Kami percaya setiap cangkir kopi punya cerita. Oleh karena itu, kami berkomitmen menyajikan minuman berkualitas premium dengan harga terjangkau. Nama Amanjiwo sendiri berasal dari bahasa Jawa yang berarti "Jiwa yang Tenang", sebuah filosofi yang kami tuangkan dalam setiap pelayanan kami.
+              Berawal dari kecintaan terhadap kopi dan keinginan menciptakan ruang hangat untuk berkumpul, Amanjiwo Coffee lahir dari sebuah gerobak sederhana di jantung kota Semarang. Kami percaya setiap cangkir kopi punya cerita. Oleh karena itu, kami berkomitmen menyajikan minuman berkualitas premium dengan harga terjangkau. Nama Amanjiwo sendiri berasal dari bahasa Jawa yang berarti &ldquo;Jiwa yang Tenang&rdquo;, sebuah filosofi yang kami tuangkan dalam setiap pelayanan kami.
             </p>
           </div>
         </div>
